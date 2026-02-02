@@ -1,3 +1,0 @@
-module.exports=[46411,a=>{"use strict";var b=a.i(41753);function c(){return(0,b.jsx)("div",{className:"min-h-screen bg-white text-[#184e77]",children:(0,b.jsx)("div",{className:"mx-auto flex max-w-3xl flex-col items-center justify-center px-6 py-20",children:(0,b.jsxs)("div",{className:"glass-panel flex w-full flex-col items-center gap-3 p-6",children:[(0,b.jsx)("div",{className:"h-5 w-5 animate-spin rounded-full border-2 border-[#52b69a]/40 border-t-[#52b69a]"}),(0,b.jsx)("p",{className:"text-sm text-[#184e77]/70",children:"Loading…"})]})})})}a.s(["default",()=>c])}];
-
-//# sourceMappingURL=Energetic_src_app_loading_tsx_71ccdd41._.js.map

@@ -1,0 +1,175 @@
+import { NewsMatch } from '../types';
+
+export const newsMatches: NewsMatch[] = [
+  {
+    id: 'wind-johnson-2025',
+    cardId: 'wind',
+    headline: 'Johnson backs Virginia wind project in break with Trump',
+    summary:
+      'House Speaker Mike Johnson voiced support for the Coastal Virginia Offshore Wind project, nearly complete and the largest planned offshore wind venture in the country.',
+    source: 'E&E News/Politico',
+    url: 'https://www.politico.com',
+    date: new Date('2025-09-01'),
+    keywords: ['offshore wind', 'Virginia', 'CVOW', 'Mike Johnson', 'Trump administration'],
+    tags: ['Wind', 'Policy'],
+    gameMetrics: {
+      energyBucks: 750,
+      realWorldCost: '$7.5 Billion',
+    },
+  },
+  {
+    id: 'nuclear-indian-point-2025',
+    cardId: 'nuclear',
+    headline: 'Indian Point could restart for $10 billion',
+    summary:
+      'Holtec International says the 2,000 megawatt nuclear plant could be restarted five years after shutdown began, amid growing openness to nuclear power in New York.',
+    source: 'Politico',
+    url: 'https://www.politico.com',
+    date: new Date('2025-09-01'),
+    keywords: ['nuclear', 'Indian Point', 'restart', 'New York', 'Hochul', 'Trump'],
+    tags: ['Nuclear', 'Policy'],
+    gameMetrics: {
+      energyBucks: 10000,
+      realWorldCost: '$10 Billion',
+    },
+  },
+  {
+    id: 'wind-norway-opposition-2025',
+    cardId: 'wind',
+    headline: "Norway's great energy dilemma: Nobody wants wind at home",
+    summary:
+      'Youth campaign opposed to wind development in Norway. Everyone wants green energy, but local opposition remains strong.',
+    source: 'NRK Norway',
+    url: 'https://www.nrk.no',
+    date: new Date('2025-09-01'),
+    keywords: ['wind opposition', 'Norway', 'NIMBY', 'youth campaign'],
+    tags: ['Wind', 'Opposition'],
+  },
+  {
+    id: 'community-poughkeepsie-2025',
+    cardId: 'community-outreach',
+    headline: 'Poughkeepsie overturns BESS moratorium after community forum',
+    summary:
+      'Town board voted to overturn 18-month moratorium on Battery Energy Storage Systems after organized community outreach and education forum.',
+    source: 'Bluesky',
+    url: 'https://bsky.app',
+    date: new Date('2025-09-03'),
+    keywords: ['BESS', 'Poughkeepsie', 'battery storage', 'community engagement'],
+    tags: ['CommunityOutreach', 'Storage'],
+    gameMetrics: {
+      publicOpinion: 4,
+    },
+  },
+  {
+    id: 'wildfire-wages-2025',
+    cardId: 'wildfire-smoke',
+    headline: 'Wildfire Smoke: $1 Trillion in Lost Wages',
+    summary:
+      'From 2020-2024, US workers lost $1.1 trillion in wages due to wildfire smoke exposure across retail, transportation, construction, and agriculture industries.',
+    source: 'Bloomberg',
+    url: 'https://www.bloomberg.com',
+    date: new Date('2025-09-01'),
+    keywords: ['wildfire smoke', 'economic impact', 'wages', 'productivity'],
+    tags: ['WildfireSmoke', 'ClimateImpact'],
+  },
+  {
+    id: 'wildfire-solar-2025',
+    cardId: 'wildfire-smoke',
+    headline: 'Canadian wildfire smoke disrupts behind-the-meter solar',
+    summary:
+      'Wildfire smoke adds complexity to grid operations in New York and New England, affecting solar generation and increasing regional exposure.',
+    source: 'GridStatus Blog',
+    url: 'https://blog.gridstatus.io',
+    date: new Date('2025-08-01'),
+    keywords: ['wildfire smoke', 'solar', 'grid operations', 'New England'],
+    tags: ['WildfireSmoke', 'Solar'],
+  },
+  {
+    id: 'youth-vote-2025',
+    cardId: 'public-deliberation',
+    headline: "Gen Z played key role in Mamdani's NYC mayoral primary victory",
+    summary: "First-time voters and Gen Z turnout reshaped NYC politics in 2025 mayor's race.",
+    source: 'amNY',
+    url: 'https://www.amny.com',
+    date: new Date('2025-07-01'),
+    keywords: ['Gen Z', 'voting', 'NYC mayor', 'Mamdani', 'youth engagement'],
+    tags: ['Policy', 'Social'],
+  },
+  {
+    id: 'precipitation-nynj-2025',
+    cardId: 'extreme-precipitation',
+    headline: 'Why Flooding In New York and New Jersey Was So Bad',
+    summary:
+      'Extremely heavy rainfall caused major flooding without a hurricane. Video of flooded subways reminiscent of Hurricane Ida 2021.',
+    source: 'Forbes',
+    url: 'https://www.forbes.com',
+    date: new Date('2025-07-01'),
+    keywords: ['flooding', 'extreme precipitation', 'New York', 'New Jersey', 'climate'],
+    tags: ['ExtremePrecipitation', 'ClimateImpact'],
+  },
+  {
+    id: 'wildfire-nyc-2025',
+    cardId: 'wildfire-smoke',
+    headline: 'Wildfire Smoke Reaches NYC: Health Risks',
+    summary:
+      'Air quality alert in effect. Association with 2023 smoke and spike in emergency department visits for asthma.',
+    source: 'The City NYC',
+    url: 'https://thecity.nyc',
+    date: new Date('2025-06-01'),
+    keywords: ['wildfire smoke', 'NYC', 'air quality', 'health', 'asthma'],
+    tags: ['WildfireSmoke', 'ClimateImpact'],
+  },
+  {
+    id: 'h2-methanol-2025',
+    cardId: 'h2-storage',
+    headline: 'Minimal Methanol Economy as hydrogen alternative',
+    summary:
+      "Research presents methanol as alternative to hydrogen for storing renewable energy, addressing hydrogen's transport and storage challenges.",
+    source: 'arXiv',
+    url: 'https://arxiv.org',
+    date: new Date('2025-05-01'),
+    keywords: ['hydrogen', 'methanol', 'storage', 'renewable energy'],
+    tags: ['H2Storage', 'Research'],
+  },
+  {
+    id: 'food-shock-2025',
+    cardId: 'food-shock',
+    headline: 'Food industry warns climate risks underestimated',
+    summary:
+      "Senior food industry staff anonymously warn investors that businesses aren't transparently disclosing cascading climate-related risks to supply chains.",
+    source: 'edie.net',
+    url: 'https://www.edie.net',
+    date: new Date('2025-04-01'),
+    keywords: ['food security', 'climate risk', 'supply chain', 'disclosure'],
+    tags: ['ClimateImpact', 'Economic'],
+  },
+  {
+    id: 'transmission-propel-2025',
+    cardId: 'transmission',
+    headline: 'Propel NY Energy Project: $3.2B grid modernization',
+    summary:
+      'NYPA initiative to upgrade 90 miles of underground and submarine transmission lines across Westchester, Long Island, and NYC.',
+    source: 'NYPA / ConstructConnect',
+    url: 'https://constructconnect.com',
+    date: new Date('2025-03-01'),
+    keywords: ['transmission', 'NYPA', 'grid modernization', 'New York'],
+    tags: ['Transmission', 'Infrastructure'],
+    gameMetrics: {
+      energyBucks: 3200,
+      realWorldCost: '$3.2 Billion',
+    },
+  },
+  {
+    id: 'market-powell-2025',
+    cardId: 'market-crash',
+    headline: 'Fed Chair Powell warns of climate impacts on markets',
+    summary:
+      "Powell testimony: In 10-15 years, some regions won't have mortgages, ATMs, or bank branches due to climate impacts.",
+    source: 'The Hill',
+    url: 'https://thehill.com',
+    date: new Date('2025-02-11'),
+    keywords: ['climate risk', 'financial markets', 'Powell', 'Federal Reserve'],
+    tags: ['Economic', 'Policy'],
+  },
+  // Add more news matches from your document...
+];
