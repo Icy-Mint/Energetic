@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/szb75/Documents/Other_Proj/Energetic/Energetic/src/app/loading.tsx"],"sourcesContent":["export default function Loading() {\r\n  return (\r\n    <div className=\"min-h-screen bg-white text-[#184e77]\">\r\n      <div className=\"mx-auto flex max-w-3xl flex-col items-center justify-center px-6 py-20\">\r\n        <div className=\"glass-panel flex w-full flex-col items-center gap-3 p-6\">\r\n          <div className=\"h-5 w-5 animate-spin rounded-full border-2 border-[#52b69a]/40 border-t-[#52b69a]\" />\r\n          <p className=\"text-sm text-[#184e77]/70\">Loading…</p>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  );\r\n}\r\n\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,2PAAC;QAAI,WAAU;kBACb,cAAA,2PAAC;YAAI,WAAU;sBACb,cAAA,2PAAC;gBAAI,WAAU;;kCACb,2PAAC;wBAAI,WAAU;;;;;;kCACf,2PAAC;wBAAE,WAAU;kCAA4B;;;;;;;;;;;;;;;;;;;;;;AAKnD"}}]
+}

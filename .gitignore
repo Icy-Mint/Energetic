@@ -8,6 +8,7 @@ pnpm-debug.log*
 # Vite
 dist/
 .vite/
+.vercel/
 
 # Environment files
 .env
@@ -30,4 +31,5 @@ Desktop.ini
 !.vscode/tasks.json
 
 .idea/
+
 

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/szb75/Documents/Other_Proj/Energetic/Energetic/src/components/ForceGraphCanvas.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport { forwardRef } from \"react\";\r\nimport ForceGraph2D from \"react-force-graph-2d\";\r\n\r\nexport const ForceGraphCanvas = forwardRef<any, Record<string, unknown>>(\r\n  function ForceGraphCanvas(props, ref) {\r\n  // react-force-graph types are permissive; keep this boundary typed loosely.\r\n    return <ForceGraph2D ref={ref as any} {...(props as any)} />;\r\n  }\r\n);\r\n\r\n"],"names":[],"mappings":";;;;;AAEA;AACA;AAHA;;;;AAKO,MAAM,iCAAmB,IAAA,wLAAU,OACxC,SAAS,iBAAiB,KAAK,EAAE,GAAG;IACpC,4EAA4E;IAC1E,qBAAO,0MAAC,kNAAY;QAAC,KAAK;QAAa,GAAI,KAAK;;;;;;AAClD"}}]
+}
